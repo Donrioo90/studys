@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /* Center the container */
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.study-groups {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  justify-content: center; /* Center the cards */
+}
+
+.study-group-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px;
+  flex: 1 0 300px; /* Make cards responsive */
+  transition: transform 0.2s;
+}
+
+.study-group-card:hover {
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.buttons {
+  margin: 10px 0; /* Space between buttons */
+}
+
+.toggle-button {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  margin-top: 10px; /* Space above the button */
+  display: block; /* Make the button block level */
+}
+
+.toggle-button:hover {
+  background-color: #4338ca; /* Darker on hover */
+}
+
+.members-list {
+  margin-top: 10px; /* Space above the members list */
+}
+
+.member-card {
+  background-color: #e0e7ff; /* Light background for member cards */
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0; /* Space between member cards */
+}
